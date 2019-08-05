@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta name="format-detection" content="email=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="telephone=no">
+
+    <!--[if !mso]><!-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neuton:400,700" rel="stylesheet">
+    <!--<![endif]-->
+
+    <!--[if gte mso 15]>
+        <style type="text/css">
+          table {
+            font-size: 1px;
+            line-height: 0;
+            mso-margin-top-alt: 1px;
+          }
+          * {
+            mso-line-height-rule: exactly;
+          }
+        </style>
+        <![endif]-->
+
+    <!--[if mso]>
+        <style type="text/css">
+          .spacer, .divider {
+            mso-line-height-rule: exactly;
+          }
+          body, table, td,th, div, p, a, h1, h2, h3, h4, h5, h6 { font-family:"Segoe UI", Helvetica, Arial, sans-serif; }
+        </style>
+        <![endif]-->
+
+    <!--[if gte mso 9]>
+        <style type="text/css">
+        li { text-align:-webkit-match-parent; display:list-item; text-indent: -10px;}
+        </style>
+
+        <xml>
+          <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+        </xml>
+    <![endif]-->
+
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i,900,900i|Neuton:400,700');
+
+        @media only screen {
+            .serif {
+                font-family: 'Neuton', sans-serif !important;
+            }
+
+            .sans-serif {
+                font-family: 'Roboto', sans-serif !important;
+            }
+
+            .column,
+            th,
+            td,
+            div,
+            p {
+                font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
+            }
+        }
+
+        *,
+        *:after,
+        *:before {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        html,
+        body {
+            width: 100% !important;
+            min-width: 100% !important;
+            height: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+            background: #f7f7f7 !important;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-family: 'Roboto', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica', 'Arial', sans-serif !important;
+            font-weight: 400 !important;
+            color: #3D3D3D;
+            font-size: 14px;
+            line-height: 25px;
+            text-align: left;
+        }
+
+        body,
+        table,
+        div,
+        p,
+        a,
+        li,
+        td,
+        th {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+
+        div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
+
+        table,
+        td,
+        th {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+            text-align: left;
+            border: 0;
+            mso-line-height-rule: exactly;
+        }
+
+        .yshortcuts a {
+            border-bottom: none !important;
+        }
+
+        .ExternalClass {
+            line-height: 100%;
+        }
+
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            width: 100%;
+        }
+
+        *[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+
+        .x-gmail-data-detectors,
+        .x-gmail-data-detectors *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        *[x-apple-data-detectors],
+        .unstyle-auto-detected-links *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        #MessageViewBody,
+        #MessageWebViewDiv {
+            width: 100% !important;
+        }
+
+        #MessageViewBody a,
+        u+#body a {
+            color: inherit;
+            text-decoration: none;
+            font-size: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            line-height: inherit
+        }
+
+        .im {
+            color: inherit !important
+        }
+
+        .a6S {
+            display: none !important;
+            opacity: .01 !important
+        }
+
+        img.g-img+div {
+            display: none !important
+        }
+
+        @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+            u~div .wrapper {
+                min-width: 320px !important;
+            }
+        }
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+            u~div .wrapper {
+                min-width: 375px !important;
+            }
+        }
+
+        @media only screen and (min-device-width: 414px) {
+            u~div .wrapper {
+                min-width: 414px !important;
+            }
+        }
+
+        #outlook a {
+            padding: 0;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+            max-width: 100%;
+            border: 0;
+            display: block;
+            line-height: 100%;
+            vertical-align: top;
+            outline: none;
+            text-decoration: none;
+            height: auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: #002A3A;
+        }
+
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            margin: 0 auto !important;
+        }
+
+        img {
+            border: 0;
+            display: block;
+            line-height: 100%;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 29px;
+            line-height: 47px;
+            font-weight: 900;
+        }
+
+        h1.hero-title {
+            font-size: 44px;
+            line-height: 46px;
+            font-weight: 900;
+            word-wrap: normal;
+            word-break: keep-all;
+        }
+
+        .title {
+            font-size: 37px;
+            line-height: 59px;
+        }
+
+        h2 {
+            font-size: 23px;
+            line-height: 38px;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 18px;
+            line-height: 31px;
+            font-weight: 700;
+        }
+
+        h4 {
+            font-size: 14px;
+            line-height: 25px;
+            font-weight: 700;
+        }
+
+        .small {
+            font-size: 11px;
+            line-height: 21px;
+        }
+
+        div,
+        p {
+            font-size: 14px;
+            line-height: 25px;
+            font-weight: 400;
+        }
+
+        blockquote {
+            padding-left: 15px;
+            border-style: solid;
+            border-left-color: #d5d5d5;
+            border-top-color: #FFFFFF;
+            border-bottom-color: #FFFFFF;
+            border-right-color: #FFFFFF;
+            border-top-width: 0;
+            border-bottom-width: 0;
+            border-right-width: 0;
+            border-left-width: 6px;
+            font-size: 14px;
+            line-height: 25px;
+        }
+
+        a {
+            color: #002a3a;
+            text-decoration: none;
+        }
+
+        ul,
+        ol {
+            margin: 0;
+            padding: 0;
+            list-style-type: disc;
+        }
+
+        li {
+            text-align: -webkit-match-parent;
+            display: list-item;
+            font-size: 14px;
+            Margin: 0 0 2px 30px;
+            line-height: 25px;
+        }
+
+        .wrapper {
+            min-width: 700px;
+        }
+
+        .row {
+            margin: 0 auto;
+            width: 700px;
+        }
+
+        .row .row,
+        th .row {
+            width: 100%;
+        }
+
+        .hover-shrink:hover {
+            transform: scale(0.7);
+        }
+
+        .video {
+            display: block !important;
+            height: auto;
+            object-fit: cover;
+        }
+
+        @media only screen and (max-width: 699px) {
+
+            .wrapper {
+                min-width: 100% !important;
+                width: 100% !important;
+                margin: auto !important;
+            }
+
+            .row {
+                width: 90% !important;
+                max-width: 90% !important;
+            }
+
+            .row .row {
+                width: 100% !important;
+            }
+
+            .column {
+                box-sizing: border-box;
+                display: inline-block !important;
+                line-height: inherit !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                -webkit-text-size-adjust: 100%;
+                margin: auto !important;
+            }
+
+            .max-width {
+                max-width: 100% !important;
+            }
+
+            .mobile-wrapper {
+                width: 90% !important;
+                max-width: 90% !important;
+            }
+
+            .mobile-1 {
+                max-width: 8.33333%;
+            }
+
+            .mobile-2 {
+                max-width: 16.66667%;
+            }
+
+            .mobile-3 {
+                max-width: 25%;
+            }
+
+            .mobile-4 {
+                max-width: 33.33333%;
+            }
+
+            .mobile-5 {
+                max-width: 41.66667%;
+            }
+
+            .mobile-6 {
+                max-width: 50%;
+            }
+
+            .mobile-7 {
+                max-width: 58.33333%;
+            }
+
+            .mobile-8 {
+                max-width: 66.66667%;
+            }
+
+            .mobile-9 {
+                max-width: 75%;
+            }
+
+            .mobile-10 {
+                max-width: 83.33333%;
+            }
+
+            .mobile-11 {
+                max-width: 91.66667%;
+            }
+
+            .mobile-12 {
+                padding-right: 30px !important;
+                padding-left: 30px !important;
+            }
+
+            .mobile-offset-1 {
+                margin-left: 8.33333% !important;
+            }
+
+            .mobile-offset-2 {
+                margin-left: 16.66667% !important;
+            }
+
+            .mobile-offset-3 {
+                margin-left: 25% !important;
+            }
+
+            .mobile-offset-4 {
+                margin-left: 33.33333% !important;
+            }
+
+            .mobile-offset-5 {
+                margin-left: 41.66667% !important;
+            }
+
+            .mobile-offset-6 {
+                margin-left: 50% !important;
+            }
+
+            .mobile-offset-7 {
+                margin-left: 58.33333% !important;
+            }
+
+            .mobile-offset-8 {
+                margin-left: 66.66667% !important;
+            }
+
+            .mobile-offset-9 {
+                margin-left: 75% !important;
+            }
+
+            .mobile-offset-10 {
+                margin-left: 83.33333% !important;
+            }
+
+            .mobile-offset-11 {
+                margin-left: 91.66667% !important;
+            }
+
+            .has-columns {
+                padding-right: 20px !important;
+                padding-left: 20px !important;
+            }
+
+            .has-columns .column {
+                padding-right: 10px !important;
+                padding-left: 10px !important;
+            }
+
+            .mobile-collapsed .column {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+
+            .mobile-no-padding {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+
+            img {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            img.full {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+            }
+
+            .buttonScale {
+                float: none !important;
+                text-align: center !important;
+                display: block !important;
+                clear: both;
+            }
+
+            .mobile-center {
+                display: table !important;
+                float: none;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            .mobile-left {
+                float: none;
+                margin: 0 !important;
+            }
+
+            .mobile-text-center {
+                text-align: center !important;
+            }
+
+            .mobile-text-left {
+                text-align: left !important;
+            }
+
+            .mobile-text-right {
+                text-align: right !important;
+            }
+
+            .show-on-mobile {
+                display: table !important;
+                overflow: visible !important;
+                line-height: inherit !important;
+            }
+
+            .hide-on-mobile {
+                display: none !important;
+                width: 0;
+                overflow: hidden;
+            }
+
+            .mobile-full-width {
+                display: table;
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .mobile-first {
+                display: table-header-group !important;
+            }
+
+            .mobile-intermediate {
+                display: table-row !important;
+            }
+
+            .mobile-last {
+                display: table-footer-group !important;
+            }
+
+            /*.mobile-first th,
+        .mobile-intermediate th,
+        .mobile-last th {
+            padding-left: 30px !important;
+            padding-right: 30px !important;
+        }*/
+
+            .accordion-content {
+                max-height: 0;
+                overflow: hidden;
+                position: relative;
+                -ms-transition: max-height .25s ease-in-out;
+                -webkit-transition: max-height .25s ease-in-out;
+                transition: max-height .25s ease-in-out;
+            }
+
+            .accordion-item:hover .accordion-content {
+                max-height: 999px;
+            }
+
+            u~div .wrapper .accordion-content {
+                max-height: none;
+            }
+
+            .h1 {
+                font-size: 42px !important;
+            }
+
+            h1.event-title {
+                font-size: 32px !important;
+                line-height: 34px !important;
+            }
+
+            .unwrap {
+                word-wrap: normal !important;
+                word-break: keep-all !important;
+            }
+
+            .h2 {
+                font-size: 28px !important;
+            }
+
+            .h3 {
+                font-size: 16px !important;
+            }
+
+            .spacer {
+                height: 30px;
+                line-height: 100% !important;
+                font-size: 100% !important;
+            }
+
+            .divider th {
+                height: 60px;
+            }
+
+            .mobile-padding-top {
+                padding-top: 30px !important;
+            }
+
+            .mobile-padding-top-mini {
+                padding-top: 10px !important;
+            }
+
+            .mobile-padding-bottom {
+                padding-bottom: 30px !important;
+            }
+
+            .mobile-padding-bottom-mini {
+                padding-bottom: 10px !important;
+            }
+
+            .mobile-margin-top {
+                margin-top: 30px !important;
+            }
+
+            .mobile-margin-top-mini {
+                margin-top: 10px !important;
+            }
+
+            .mobile-margin-bottom {
+                margin-bottom: 30px !important;
+            }
+
+            .mobile-margin-bottom-mini {
+                margin-bottom: 10px !important;
+            }
+
+            .no-border-on-mobile {
+                border: none !important;
+            }
+
+            .overlay-bg {
+                background-image: url('https://www.alburycity.nsw.gov.au/__data/assets/image/0010/173395/overlay-dark.png');
+            }
+        }
+    </style>
+</head>
+
+<body style="box-sizing:border-box;margin:0;padding:0;width:100%;-webkit-font-smoothing:antialiased;">
+    <table class="wrapper" align="center" bgcolor="#F7F7F7" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td style="padding: 0;;">
+                <repeater>
+
+                    <layout label='Full-Width Image 700px'>
+                        <table class="row" align="center" bgcolor="" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <th class="column" width="700" style="line-height:1;">
+                                    <img editable src="https://www.alburycity.nsw.gov.au/__data/assets/image/0011/174818/tek-tek.jpg"
+                                        width="700" style="display:block; border: 0; width: 100%; max-width: 700px;">
+                                </th>
+                            </tr>
+                        </table>
+                    </layout>
+
+                    <layout label='Event Details'>
+
+                        <table class="row" align="center" bgcolor="#E56A54" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <th class="column" width="640" style="padding-left: 30px; padding-right:0px;">
+                                    <table class="row" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="spacer" height="40" colspan="3" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="column unwrap mobile-padding-bottom-mini" colspan="2" style="padding-right: 10px; color: #FFFFFF; font-weight: 400; text-align: left; font-size:14px; line-height:22px; word-wrap: wrap; word-break: break-all; padding-bottom:30px;">
+                                                <div class="sans-serif">
+                                                    <h1 style="padding-bottom:10px; font-size: 44px; line-height: 46px; font-weight: 900; display:block; color: #FFFFFF;"
+                                                        class="sans-serif event-title hero-title">
+                                                        <singleline label="Title">Event Title</singleline>
+                                                    </h1>
+                                                    <h3 style="color: #FFFFFF; font-size: 18px; line-height: 26px; font-weight: 400;"
+                                                        class="serif">
+                                                        <singleline label="Sub-title">Final Year La Trobe Students<br>Making
+                                                            Military History</singleline>
+                                                    </h3>
+                                                </div>
+                                            </th>
+                                            <th valign="top" class="hide-on-mobile" rowspan="3" style="font-weight: 400; text-align: right; line-height:1;">
+                                                <img align="right" editable width="145" valign="top" src="https://www.alburycity.nsw.gov.au/__data/assets/image/0007/174724/artscultureevents_white_opacity_rotated.png"
+                                                    style="display:block; -ms-interpolation-mode: bicubic; border: 0; height: auto; outline: none; text-decoration: none; max-width: 145px; vertical-align:top; line-height:100%;">
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th valign="top" class="column mobile-padding-bottom-mini" width="40%"
+                                                style="color: #FFFFFF; font-weight: 400; text-align: left; font-size:14px; line-height:22px; padding-right:30px;">
+                                                <div class="sans-serif">
+                                                    <multiline label="Event Details">
+                                                        Tuesday 23 October — Sunday 11 November<br>
+                                                        Launch and student talk<br>
+                                                        Wednesday 24 October 11.00am<br>
+                                                        Albury LibraryMuseum, Community Wall<br>
+                                                        Free<br>
+                                                        Bookings at 02 6023 8333 or <a href="mailto:librarymuseum@alburycity.nsw.gov.au"
+                                                            style="color: #FFFFFF; word-wrap: break-word; word-break: break-all; text-decoration:none; font-weight: bold;">librarymuseum@<br>alburycity.nsw.gov.au</a>
+                                                    </multiline>
+                                                </div>
+                                            </th>
+                                            <th valign="top" class="column" width="56.66%" style="color: #FFFFFF; font-weight: 400; text-align: left; font-size:14px; line-height:22px; padding-right:20px">
+                                                <div class="sans-serif">
+                                                    <multiline label="Event Description">
+                                                        Ficiumque nim eos prorias doluptatia si conecepedit la que
+                                                        volla con con
+                                                        consequibus, tempelis eat res aut laudi ute elenis ex
+                                                        eatusciat. Rerspitam nos
+                                                        et re dipsam quis molectus poraectet officia tesequas dis in
+                                                        nonse voluptatus
+                                                        ditiisqui dolorrum, vendipient ut ullupienis endis rem rem eati
+                                                        cullor accatur
+                                                        moluptatur rendistiam utem auta sam facius, ipietur resti
+                                                        noneceatem voluptas
+                                                        dolupta dendaec ustiunte erferum quam.</multiline>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td class="spacer" height="30" colspan="3" style="font-size: 30px; line-height: 30px;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="column" colspan="2" style="line-height: 1;">
+                                                <div align="left" class="mobile-text-left" style="line-height: 1;">
+                                                    <a href="https://www.alburycity.nsw.gov.au">
+                                                        <img editable src="https://www.alburycity.nsw.gov.au/__data/assets/image/0009/172917/wordmark-white.png"
+                                                            width="110" alt="Alburycity" style="border: 0; max-width: 110px; height: auto; display:block;">
+                                                    </a> </div>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td class="spacer" height="40" colspan="3" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </th>
+                            </tr>
+                        </table>
+                    </layout>
+
+                </repeater>
+
+                <table class="row" align="center" bgcolor="#F7F7F7" cellpadding="0">
+                    <tr>
+                        <td class="spacer" height="30" style="font-size: 30px; line-height: 30px;">&nbsp;</td>
+                    </tr>
+                    <tr valign="top" style="vertical-align: top;">
+                        <th class="column mobile-12 mobile-padding-bottom-mini mobile-text-center" width="260" style="color: #858585; font-weight:400; padding-left: 30px; padding-right: 10px; text-align: left;">
+                            <div class="sans-serif" style="line-height: 25px;">
+                                <singleline label="Copyright">&copy; AlburyCity. All Rights Reserved.</singleline>
+                            </div>
+                        </th>
+                        <th class="column mobile-12 mobile-text-center" width="360" style="padding-left: 10px; padding-right: 30px; color: #858585; font-weight: 400; text-align: right;">
+                            <div>
+                                <unsubscribe style="color: #5F5F5F; text-decoration: none;">Unsubscribe</unsubscribe>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="spacer" height="30" style="font-size: 30px; line-height: 30px;">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

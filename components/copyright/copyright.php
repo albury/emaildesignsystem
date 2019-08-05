@@ -1,0 +1,1 @@
+<div class="sans-serif" style="line-height: 25px;"><singleline label="Copyright">&copy; AlburyCity. All Rights Reserved.</singleline></div>
